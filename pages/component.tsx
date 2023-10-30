@@ -3,7 +3,7 @@ import {Button} from "@nextui-org/button";
 import {Card, CardHeader, CardBody, Image, Tabs, Tab,} from "@nextui-org/react";
 import Link from "next/link";
 
-function component() {
+function BaseComponent() {
   return (
     <div className="relative mx-auto w-full max-w-container">
 
@@ -204,4 +204,4 @@ function component() {
   );
 }
 
-export default component
+export default BaseComponent
