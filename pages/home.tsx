@@ -22,7 +22,7 @@ export default function Home(props:any) {
     return (
         <>
         {/* Init Hero Section */}
-            {JSON.stringify(hero)}
+            {/* {JSON.stringify(hero)} */}
 
         {/* Init Body Section */}
             {
